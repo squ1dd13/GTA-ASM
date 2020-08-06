@@ -1,0 +1,1 @@
+The files in this directory contain code related to the original GTA script format - .SC(M), compiled with miss2.
