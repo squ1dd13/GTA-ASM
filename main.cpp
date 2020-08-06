@@ -528,7 +528,7 @@ int main(int argc, char **argv) {
         // Decompile the file to an intermediate representation and output
         //  that representation to a file for further processing.
 
-        parseOpcodeFile("/Users/squ1dd13/CLionProjects/gtasm/Opcodes.ini");
+        parseOpcodeFile("/Users/squ1dd13/Documents/MSD-Project/cpp/GTA-ASM/Opcodes.ini");
 
         unlink(argv[2]);
         std::ofstream outFile(argv[2]);
@@ -576,9 +576,9 @@ int main(int argc, char **argv) {
     bool testingDecompilation = true;
 
     if(testingDecompilation) {
-        parseOpcodeFile("/Users/squ1dd13/CLionProjects/gtasm/Opcodes.ini");
+        parseOpcodeFile("/Users/squ1dd13/Documents/MSD-Project/cpp/GTA-ASM/Opcodes.ini");
 
-        miss2::Script script = miss2::Decompiler::decompile("/Users/squ1dd13/CLionProjects/gtasm/GTA Scripts/debt.scm");
+        miss2::Script script = miss2::Decompiler::decompile("/Users/squ1dd13/Documents/MSD-Project/cpp/GTA-ASM/GTA Scripts/debt.scm");
         script.prettyPrint();
     } else {
 
