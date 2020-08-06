@@ -518,6 +518,9 @@ void printDisassembly(string_ref filename) {
 }
 
 int main(int argc, char **argv) {
+
+    std::cout << "GTA-ASM v1.0\n";
+
     if(argc > 2) {
         // argv[1] is the input file
         // argv[2] is the output file
